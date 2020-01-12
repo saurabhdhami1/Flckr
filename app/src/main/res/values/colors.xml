@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--define palate common for shield and crew force in day/night theme-->
+    <color name="blackPrimary">#000000</color>
+    <color name="blackSecondary">#212121</color>
+    <color name="blackTertiary">#333333</color>
+    <color name="purple">#551A8B</color>
+    <color name="light_grey">#E5E5E5</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#03A9F4</color>
+    <color name="pink">#FFB6C1</color>
+</resources>
