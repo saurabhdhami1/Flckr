@@ -19,7 +19,11 @@ open class DataRepository @Inject constructor(
 
     fun getImages() = cacheDataSource.getImageSizes()
     fun storeImages(photoSizes: PhotoSizes) = cacheDataSource.storeImages(photoSizes)
-    fun getSizeByLabelAndId(label: String, photoId: Long) = cacheDataSource.getImagesByLabelAndPhotoId(label,photoId)
-    fun getImagesByLabel(label: String)= cacheDataSource.getImagesByLabel(label)
+    fun getSizeByLabelAndId(label: String, photoId: Long) =
+        cacheDataSource.getImagesByLabelAndPhotoId(label, photoId)
+
+    fun getImagesByLabel(label: String) = cacheDataSource.getImagesByLabel(label)
     fun getPhotoSizesUpdates() = cacheDataSource.getPhotoSizeUpdates()
+    fun saurabh() = cacheDataSource.getPhotoSizeUpdates()
+
 }
